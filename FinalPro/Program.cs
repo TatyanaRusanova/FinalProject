@@ -9,7 +9,7 @@
 // [“Russia”, “Denmark”, “Kazan”] → []
 
 Console.WriteLine("Введите количество элементов массива: ");
-int size  = int.Parse(Console.ReadLine());
+int size  =  Convert.ToInt32(Console.ReadLine());
 
 string[] array1 = new string[size];
 
@@ -22,3 +22,5 @@ Console.WriteLine();
 Console.Write("Введенный массив: [");
 Console.Write(string.Join(",", array1));
 Console.Write("]");
+
+
